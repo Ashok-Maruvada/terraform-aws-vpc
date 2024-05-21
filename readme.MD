@@ -1,7 +1,7 @@
 # Custom AWS VPC Module
 ![alt text](image.png)
 
-This module is developed for our expense project.This module creates resources in first 2 Availability Zones for HA.
+This module is developed for our expense project.This module creates resources in first 2 Availability Zones for HA. Below is the flow of execution step by step.
 * VPC
 * Internet Gateway
 * Internet and VPC attachment
