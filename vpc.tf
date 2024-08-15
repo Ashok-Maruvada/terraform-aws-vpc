@@ -76,6 +76,7 @@ resource "aws_subnet" "database" {
 }
 
 ## creating database subnet group for HA as it is critical 
+## The DB subnet group defines which subnets and IP ranges the DB cluster can use in the VPC that you selected.
 resource "aws_db_subnet_group" "default" {
   name       = local.resource_name
   subnet_ids = aws_subnet.database[*].id
